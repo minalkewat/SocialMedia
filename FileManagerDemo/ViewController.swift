@@ -23,10 +23,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         let detailVC = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
         detailVC?.imgString = pictures[indexPath.row]
         navigationController?.pushViewController(detailVC!, animated: true)
-  
+        
     }
 
-    
     
     var pictures = [String]()
 
@@ -34,6 +33,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         // Do any additional setup after loading the view.
            navigationController?.navigationBar.prefersLargeTitles = true
+        
      
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
@@ -52,9 +52,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         } catch {
             
         }
-        
     }
-
-
 }
 

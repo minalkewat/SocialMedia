@@ -56,17 +56,17 @@
 		1626BBD1228EBDBD00543265 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
 		1626BBD2228EBDBD00543265 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 		1626BBDD228EC06200543265 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		16DCF818228EA46800E5C531 /* FileManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DCF818228EA46800E5C531 /* SocialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DCF81B228EA46800E5C531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16DCF81D228EA46800E5C531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16DCF820228EA46800E5C531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16DCF822228EA46A00E5C531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16DCF825228EA46A00E5C531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16DCF827228EA46A00E5C531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16DCF82C228EA46A00E5C531 /* FileManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DCF82C228EA46A00E5C531 /* SocialMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DCF830228EA46A00E5C531 /* FileManagerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerDemoTests.swift; sourceTree = "<group>"; };
 		16DCF832228EA46A00E5C531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16DCF837228EA46A00E5C531 /* FileManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DCF837228EA46A00E5C531 /* SocialMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DCF83B228EA46A00E5C531 /* FileManagerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerDemoUITests.swift; sourceTree = "<group>"; };
 		16DCF83D228EA46A00E5C531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,9 +109,9 @@
 		16DCF819228EA46800E5C531 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16DCF818228EA46800E5C531 /* FileManagerDemo.app */,
-				16DCF82C228EA46A00E5C531 /* FileManagerDemoTests.xctest */,
-				16DCF837228EA46A00E5C531 /* FileManagerDemoUITests.xctest */,
+				16DCF818228EA46800E5C531 /* SocialMedia.app */,
+				16DCF82C228EA46A00E5C531 /* SocialMediaTests.xctest */,
+				16DCF837228EA46A00E5C531 /* SocialMediaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16DCF817228EA46800E5C531 /* FileManagerDemo */ = {
+		16DCF817228EA46800E5C531 /* SocialMedia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16DCF840228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "FileManagerDemo" */;
+			buildConfigurationList = 16DCF840228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "SocialMedia" */;
 			buildPhases = (
 				16DCF814228EA46800E5C531 /* Sources */,
 				16DCF815228EA46800E5C531 /* Frameworks */,
@@ -173,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = FileManagerDemo;
+			name = SocialMedia;
 			productName = FileManagerDemo;
-			productReference = 16DCF818228EA46800E5C531 /* FileManagerDemo.app */;
+			productReference = 16DCF818228EA46800E5C531 /* SocialMedia.app */;
 			productType = "com.apple.product-type.application";
 		};
-		16DCF82B228EA46A00E5C531 /* FileManagerDemoTests */ = {
+		16DCF82B228EA46A00E5C531 /* SocialMediaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16DCF843228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "FileManagerDemoTests" */;
+			buildConfigurationList = 16DCF843228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "SocialMediaTests" */;
 			buildPhases = (
 				16DCF828228EA46A00E5C531 /* Sources */,
 				16DCF829228EA46A00E5C531 /* Frameworks */,
@@ -191,14 +191,14 @@
 			dependencies = (
 				16DCF82E228EA46A00E5C531 /* PBXTargetDependency */,
 			);
-			name = FileManagerDemoTests;
+			name = SocialMediaTests;
 			productName = FileManagerDemoTests;
-			productReference = 16DCF82C228EA46A00E5C531 /* FileManagerDemoTests.xctest */;
+			productReference = 16DCF82C228EA46A00E5C531 /* SocialMediaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		16DCF836228EA46A00E5C531 /* FileManagerDemoUITests */ = {
+		16DCF836228EA46A00E5C531 /* SocialMediaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16DCF846228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "FileManagerDemoUITests" */;
+			buildConfigurationList = 16DCF846228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "SocialMediaUITests" */;
 			buildPhases = (
 				16DCF833228EA46A00E5C531 /* Sources */,
 				16DCF834228EA46A00E5C531 /* Frameworks */,
@@ -209,9 +209,9 @@
 			dependencies = (
 				16DCF839228EA46A00E5C531 /* PBXTargetDependency */,
 			);
-			name = FileManagerDemoUITests;
+			name = SocialMediaUITests;
 			productName = FileManagerDemoUITests;
-			productReference = 16DCF837228EA46A00E5C531 /* FileManagerDemoUITests.xctest */;
+			productReference = 16DCF837228EA46A00E5C531 /* SocialMediaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 16DCF813228EA46800E5C531 /* Build configuration list for PBXProject "FileManagerDemo" */;
+			buildConfigurationList = 16DCF813228EA46800E5C531 /* Build configuration list for PBXProject "SocialMedia" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -250,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16DCF817228EA46800E5C531 /* FileManagerDemo */,
-				16DCF82B228EA46A00E5C531 /* FileManagerDemoTests */,
-				16DCF836228EA46A00E5C531 /* FileManagerDemoUITests */,
+				16DCF817228EA46800E5C531 /* SocialMedia */,
+				16DCF82B228EA46A00E5C531 /* SocialMediaTests */,
+				16DCF836228EA46A00E5C531 /* SocialMediaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -326,12 +326,12 @@
 /* Begin PBXTargetDependency section */
 		16DCF82E228EA46A00E5C531 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 16DCF817228EA46800E5C531 /* FileManagerDemo */;
+			target = 16DCF817228EA46800E5C531 /* SocialMedia */;
 			targetProxy = 16DCF82D228EA46A00E5C531 /* PBXContainerItemProxy */;
 		};
 		16DCF839228EA46A00E5C531 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 16DCF817228EA46800E5C531 /* FileManagerDemo */;
+			target = 16DCF817228EA46800E5C531 /* SocialMedia */;
 			targetProxy = 16DCF838228EA46A00E5C531 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -482,7 +482,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Happykrafts.FileManagerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = MeenalsApp.SocialMedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,7 +499,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Happykrafts.FileManagerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = MeenalsApp.SocialMedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileManagerDemo.app/FileManagerDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMedia.app/SocialMedia";
 			};
 			name = Debug;
 		};
@@ -542,7 +542,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileManagerDemo.app/FileManagerDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMedia.app/SocialMedia";
 			};
 			name = Release;
 		};
@@ -587,7 +587,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16DCF813228EA46800E5C531 /* Build configuration list for PBXProject "FileManagerDemo" */ = {
+		16DCF813228EA46800E5C531 /* Build configuration list for PBXProject "SocialMedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16DCF83E228EA46A00E5C531 /* Debug */,
@@ -596,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16DCF840228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "FileManagerDemo" */ = {
+		16DCF840228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "SocialMedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16DCF841228EA46A00E5C531 /* Debug */,
@@ -605,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16DCF843228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "FileManagerDemoTests" */ = {
+		16DCF843228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "SocialMediaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16DCF844228EA46A00E5C531 /* Debug */,
@@ -614,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16DCF846228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "FileManagerDemoUITests" */ = {
+		16DCF846228EA46A00E5C531 /* Build configuration list for PBXNativeTarget "SocialMediaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16DCF847228EA46A00E5C531 /* Debug */,
